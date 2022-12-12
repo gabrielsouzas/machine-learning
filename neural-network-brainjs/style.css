@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container div {
+    margin-top: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.input-entry {
+    max-width: 40px;
+    height: 30px;
+    text-align: center;
+}
+
+#number-trainings {
+    max-width: 100px;
+    height: 30px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(212, 151, 59);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+    box-shadow: 4px 5px 5px 0px rgba(0,0,0,0.75);
+    
+}
+
+button:hover {
+    background-color: gray;
+    color: white;
+    
+    box-shadow: 6px 7px 5px 0px rgba(0,0,0,0.75);
+}
